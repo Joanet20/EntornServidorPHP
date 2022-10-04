@@ -17,7 +17,7 @@
     echo $num1 . " elevat a " . $num2 . " = " . $num1 ** $num2;
     echo "<p> </p>";
 
-    echo $num1 . " / " . $num2 . " = " . "Residu: " . $num1 * $num2;
+    echo $num1 . " / " . $num2 . " = " . "Residu: " . $num1 % $num2;
     echo "<p> </p>";
 
 
