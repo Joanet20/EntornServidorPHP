@@ -23,21 +23,26 @@
 
     if ($num1 == $num5 && $num5 == $num6){
         echo "Se cumpleixen ses dues condicions";
+        echo "<p> </p>";
     }
 
     if ($num1 == $num5 || $num5 == $num4){
         echo "Se cumpleix almenos una de ses condicions";
+        echo "<p> </p>";
     }
 
     if (!$bool2){
         echo "bool2 te es valor de fals";
+        echo "<p> </p>";
     }
 
     if (!$bool1){
         echo "bool1 te es valor de vertader";
+        echo "<p> </p>";
     }
 
     if ($num1 == $num5 xor $num2 == $num3){
         echo "No només se cumpleix una de ses condicions";
+        echo "<p> </p>";
     }
 ?>
