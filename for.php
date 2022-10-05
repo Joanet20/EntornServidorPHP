@@ -15,7 +15,7 @@
 
     //Treu tots es numeros pars de 0 a $num empleant un if
     for ($k = 0; $k<$num; $k++){
-        if ($k%1 == 0){
+        if ($k%2 == 0){
             echo "Valor de k: " . $k;
             echo "<p> </p>";
         }
