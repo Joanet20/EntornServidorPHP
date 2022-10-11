@@ -25,7 +25,9 @@ $limit = 17;
         for($j = 0; $j < $limit; $j++){
             echo "Valor de j: " . $j;
             echo "<p> </p>";
-            break;
+            if ($i == 3){
+                break;
+            }
         }
     }
 ?>
