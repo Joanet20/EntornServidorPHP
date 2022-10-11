@@ -25,5 +25,6 @@
         return $v1 + $v2;
     }
 
-    sumaRet(21, $valor2);
+    $result = sumaRet(21, $valor2);
+    echo "Resultat: " . $result;
 ?>
