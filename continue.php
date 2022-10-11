@@ -4,6 +4,7 @@
     //For normal
     for($i = 0; $i < $limit; $i++){
         echo "Valor de i: " . $i;
+        echo "<p> </p>";
     }
 
     //Amb es continue quan $i sigui 3 so botara i pasara a nes seguent
@@ -13,5 +14,6 @@
             continue;
         }
         echo "Valor de i: " . $i;
+        echo "<p> </p>";
     }
 ?>
