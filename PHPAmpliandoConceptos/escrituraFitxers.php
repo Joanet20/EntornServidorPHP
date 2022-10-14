@@ -7,7 +7,7 @@ echo $contF2 . "<br>";
 //Escriu una nova linia
 fwrite($contF1, "Nova linia");
 $contF3 = fread($contF1, filesize("file1.txt"));
-echo $contF3 - "<br>";
+echo $contF3 . "<br>";
 
 
 ?>
