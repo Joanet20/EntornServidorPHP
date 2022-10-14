@@ -9,5 +9,6 @@ fwrite($contF1, "Nova linia");
 $contF3 = fread($contF1, filesize("file2.txt"));
 echo $contF3 . "<br>";
 
+fflush($contF1);
 
 ?>
