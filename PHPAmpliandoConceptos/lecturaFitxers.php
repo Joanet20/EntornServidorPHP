@@ -13,8 +13,9 @@ if (!$contF1){
 
 //Fa que torni a sa primero posició des contingut
 rewind($contF1);
-//Mostrarem ses linies separades amb salts de línia
+//Mostrarem ses linies separades amb salts de línia i tambe es primer caracter de cada linia
 while (!feof($contF1)){
     echo fgets($contF1) . "<br>";
+    echo "Primer caràcter " . fgetc($contF1). "<br>";
 }
 ?>
