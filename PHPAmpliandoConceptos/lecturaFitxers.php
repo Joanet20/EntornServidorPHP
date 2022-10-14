@@ -12,9 +12,9 @@ if (!$contF1){
 }
 
 //Fa que torni a sa primero posició des contingut
-rewind("file1.txt");
+rewind($contF1);
 //Mostrarem ses linies separades amb salts de línia
-while (!feof("file1.txt")){
-    echo fgets("file1.txt") . "<br>";
+while (!feof($contF1)){
+    echo fgets($contF1) . "<br>";
 }
 ?>
