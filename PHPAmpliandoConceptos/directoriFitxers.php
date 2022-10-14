@@ -1,9 +1,11 @@
 <?php
 //Mostra directori actual
-echo getcwd();
+echo getcwd() . "<br>";
 
 //Mostra estructura directoris
-scandir(getcwd());
+$directoris = scandir(getcwd());
+var_dump($directoris);
+echo "<br>";
 
 //Cambiam a nes directori anterior
 chdir("../");
