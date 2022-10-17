@@ -21,6 +21,10 @@ if (!isset($_GET['aceptar']) && !isset($_COOKIE['ck'])){
     <span>No has acceptat ses cookies</span>
     <a href="?aceptar"=1>ACEPTAR COOKIES</a>
 <?php
+} else {
+?>
+    <h2>Cookies aceptades!!</h2>
+<?php
 }
 ?>
 </body>
